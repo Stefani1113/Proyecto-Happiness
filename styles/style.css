@@ -447,4 +447,157 @@ hr{
 .iconos{
     margin-right: 30px;
 }
+/* MEDIA QUERIES */
+
+@media (max-width: 1279px){
+    .contenedor-uno{
+        display: flex;
+        flex-direction: column;
+    }
+    .texto-uno{
+        padding: 90px 80px;
+    }
+    .imagen-uno{
+        padding: 50px 0 0 80px;
+    }
+    .contenedor-dos{
+        top: 1150px; 
+        margin-left: 50px;
+    }
+    .imagenes-dos{
+        padding-right: 80px;
+        margin-left: 40px;
+    }
+    .imagenes-tres{
+        display: none;
+    }
+    .contenedor-dentro{
+        flex-direction: column;
+    }
+    .imagen-tres img{
+        padding-top: 60px;
+        margin-left: 50px;
+    }
+    .contenedor-cuatro{
+        flex-direction: column;
+    }
+    .contenedor-cinco img{
+        width: 800px;
+    }
+    .contenedor-seis{
+        flex-direction: column-reverse;
+    }
+    .texto-cinco{
+        padding: 95px 0 0 90px;
+    }
+    .imagen-cuatro img{
+        padding: 70px 0 80px 90px;
+    }
+    .contenedor-siete{
+        flex-direction: column;
+    }
+    .texto-siete{
+        padding: 100px 0 0 90px;
+    }
+    .imagen-siete{
+        padding: 20px 50px;
+    }
+    .contenedor-ocho{
+        flex-direction: column;
+    }
+    .formulario form{
+        padding-left: 60px;
+    }
+    .texto-ocho{
+        padding: 80px 0 10px 5px;
+    }
+    .contenedor-nueve img{
+        width: 800px;
+    }
+}
+@media (max-width: 920px){
+    .contenedor-dos{
+        margin-left: 40px;
+        top: 1170px;
+    }
+    .texto-dos{
+        padding: 50px 50px;
+    }
+    .imagenes-dos{
+        padding-right: 30px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .texto-tres{
+        padding-left: 100px;
+    }
+    .imagen-tres img{
+        padding-top: 60px;
+        margin-left: 100px;
+        width: 600px;
+    }
+    .imagen-allado img{
+        width: 100%;
+    }
+    .contenedor-base{
+    background-color: white;
+    padding: 80px 80px;
+    }
+    .contenedor-cinco img{
+        width: 600px;
+    }
+    .imagen-cuatro img{
+        padding: 70px 0 80px 90px;
+        width: 700px;
+    }
+    .imagen-siete img{
+        padding: 70px 0 50px 30px;
+        width: 650px;
+    }
+    .formulario{
+        width: 550px;
+    }
+    .formulario form{
+        padding-left: 10px;
+    }
+    .contenedor-nueve img{
+        width: 700px;
+    }
+    .contenedor-ocho{
+        padding: 100px 100px;
+    }
+}
+@media (max-width: 768px){
+    ul{
+    gap: 15px;
+    }
+    li{
+    font-size: 15px;
+    } 
+    nav{
+    padding: 10px 20px;
+    }
+    .contenedor-uno img{
+        width: 400px;
+    }
+    .imagen-uno{
+        padding: 40px 40px;
+    }
+    .texto-uno{
+        padding: 40px 40px;
+    }
+    .texto-uno p{
+        width: 400px;
+    }
+        .contenedor-dos{
+        margin-left: 40px;
+        top: 980px;
+    }
+    .imagenes-dos{
+        display: none;
+    }
+    
+
+}
+
 
