@@ -596,8 +596,245 @@ hr{
     .imagenes-dos{
         display: none;
     }
-    
-
+    .contenedor-tres{
+        padding-top: 300px;
+    }
+    .contenedor-tres h1{
+        padding-left: 40px;
+        width: 500px;
+    }
+    .texto-tres{
+        padding: 40px 40px;
+    }
+    .texto-tres p{
+        width: 400px;
+    }
+    .imagen-tres img{
+        width: 400px;
+        margin-left: 40px;
+    }
+    .contenedor-cuatro{
+        width: 400px;
+        margin-top: 50px;
+    }
+    .contenedor-base{
+        padding: 40px 40px;
+    }
+    .texto-cuatro{
+        padding: 30px 30px;
+    }
+    .texto-cuatro p{
+        width: 300px;
+    }
+    .imagen-relleno img{
+        width: 250px;
+        margin: 90px 0 50px 50px;
+    }
+    .contenedor-cinco p{
+        width: 420px;
+    }
+    .contenedor-cinco img{
+        width: 400px;
+    }
+    .texto-cinco{
+        padding: 80px 0 0 40px;
+    }
+    .texto-cinco p{
+        width: 400px;
+    }
+    .imagen-cuatro img{
+        width: 500px;
+        padding: 40px 40px;
+    }
+    .texto-siete{
+        padding: 80px 0 0 40px;
+    }
+    .texto-siete p{
+        width: 400px;
+    }
+    .imagen-siete img{
+        width: 400px;
+        padding: 70px 20px 70px 0;
+    }
+    .formulario{
+        padding-left: 30px;
+        padding-right: 20px;
+        width: 400px;
+        height: 600px;
+    }
+    .parte-superior input{
+        width: 150px;
+    }
+    input{
+        width: 315px;
+    }
+    textarea{
+        width: 315px;
+    }
+    .contenedor-ocho{
+        padding: 80px 0 0 40px;
+    }
+    .parrafo-uno{
+        width: 330px;
+    }
+    .texto-ocho{
+        padding-bottom: 80px;
+    }
+    .texto-ocho p{
+        width: 400px;
+    }
+    .contenedor-nueve img{
+        width: 450px;
+    }
+}
+@media (max-width: 480px){
+    ul{
+    gap: 10px;
+    }
+    li{
+    font-size: 13px;
+    } 
+    nav{
+    padding: 10px 10px;
+    }
+    nav img{
+        width: 50px;
+    }
+    .contenedor-uno img{
+        width: 300px;
+    }
+    .imagen-uno{
+        padding: 60px 25px;
+    }
+    .texto-uno{
+        padding: 10px 25px;
+    }
+    .texto-uno h1{
+        width: 300px;
+    }
+    .texto-uno p{
+        width: 300px;
+    }
+    .contenedor-dos{
+        margin-left: 20px;
+        top: 1000px;
+    }
+    .texto-dos{
+        padding: 30px 30px;
+    }
+    .texto-dos p{
+        width: 250px;
+    }
+    .imagenes-dos{
+        display: none;
+    }
+    .contenedor-tres{
+        padding-top: 250px;
+    }
+    .contenedor-tres h1{
+        padding-left: 20px;
+        width: 350px;
+    }
+    .texto-tres{
+        padding: 20px 20px;
+    }
+    .texto-tres p{
+        width: 300px;
+    }
+    .imagen-tres img{
+        width: 300px;
+        margin-left: 20px;
+    }
+    .contenedor-cuatro{
+        width: 300px;
+        margin-top: 50px;
+    }
+    .contenedor-base{
+        padding: 40px 25px;
+    }
+    .texto-cuatro{
+        padding: 30px 20px;
+    }
+    .texto-cuatro h1{
+        font-size: 65px;
+    }
+    .texto-cuatro p{
+        width: 250px;
+    }
+    .imagen-relleno img{
+        width: 230px;
+        margin: 90px 20px 50px 20px;
+    }
+    .contenedor-cinco p{
+        width: 320px;
+    }
+    .contenedor-cinco img{
+        width: 300px;
+    }
+    .texto-cinco{
+        padding: 80px 0 0 20px;
+    }
+    .texto-cinco p{
+        width: 300px;
+    }
+    .imagen-cuatro img{
+        width: 350px;
+        padding: 40px 20px;
+    }
+    .texto-siete{
+        padding: 80px 0 0 20px;
+    }
+    .texto-siete p{
+        width: 302px;
+    }
+    .texto-siete h1{
+        width: 320px;
+    }
+    .imagen-siete img{
+        width: 320px;
+    }
+    .imagen-siete{
+        padding: 20px 20px;
+    }
+    .formulario{
+        padding-left: 15px;
+        padding-right: 20px;
+        padding-top: 30px;
+        width: 300px;
+        height: 650px;
+    }
+    .parte-superior input{
+        width: 250px;
+    }
+    .parte-superior{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        width: 250px;
+    }
+    textarea{
+        width: 250px;
+    }
+    .contenedor-ocho{
+        padding: 80px 0 0 30px;
+    }
+    .parrafo-uno{
+        width: 250px;
+    }
+    .texto-ocho h1{
+        width: 200px;
+    }
+    .texto-ocho p{
+        width: 300px;
+    }
+    .contenedor-nueve img{
+        width: 300px;
+    }
+    .contenedor-nueve p{
+        font-size: 20px;
+        text-align: center;
+    }
 }
 
 
